@@ -1,0 +1,42 @@
+<!-- déclaration de l'usage de la norme HTML5 -->
+<!DOCTYPE html>
+<!-- déclaration de la langue du document à l'usage des lecteurs pour a11i -->
+<html lang="fr">
+  <head>
+    <!-- déclaration de l'usage de l'encodage utf-8 -->
+    <meta charset="utf-8" />
+
+    <!-- déclaration de l'intention pour le RWD de s'adapter au dispositif, à partir du niveau de zoom 1:1, sans réduction du contenu à la largeur du dispositif -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- titre du document, utilisé pour les résultats de recherche et pour l'onglet du naviguateur -->
+    <title>Pokédex</title>
+    <meta name="description" content="">
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+  </head>
+  <body>
+    <header>
+      <h1>Pokédex</h1>
+      <button>menu</button>
+    </header>
+    
+    <main>
+      <h2>Qule Pokémon cherchez vous ?</h2>
+      <!-- moteur de recherche -->
+      <form action="" method="">
+        <label for="search">cherchez un pokémon par nom : </label>
+        <input type="search" value="" name="SEARCH" id="search">
+
+        <button type="submit">recherchew</button>
+      </form>
+      <!-- liste des resultats -->
+      <ul id="pokelist">
+       
+
+      </ul>
+    </main>
+    
+    <script src="./pokedex.js" defer></script>
+    <script src="main.js" defer></script>
+  </body>
+</html>
