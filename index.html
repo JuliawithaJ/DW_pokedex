@@ -17,13 +17,21 @@
   <body>
     <header>
       <h1>Pokédex</h1>
-      <button>menu</button>
+
+      <button id="btn-open-menu">ouvrir le menu</button>
+
+      <nav class="menu-is-closed" id="menu">
+        <button id="btn-close-menu">Fermer le menu</button>
+        <ul id="Types-list">
+
+        </ul>
+      </nav>
     </header>
     
     <main>
-      <h2>Qule Pokémon cherchez vous ?</h2>
+      <h2>Quel Pokémon cherchez vous ?</h2>
       <!-- moteur de recherche -->
-      <form action="" method="">
+      <form id="form-search">
         <label for="search">cherchez un pokémon par nom : </label>
         <input type="search" value="" name="SEARCH" id="search">
 
@@ -36,7 +44,9 @@
       </ul>
     </main>
     
-    <script src="./pokedex.js" defer></script>
-    <script src="main.js" defer></script>
+    <script src="./js/pokedex.js" defer></script>
+    <script src="./js/functions.js" defer></script>
+    <script src="./js/menuburger.js" defer></script>
+    <script src="./js/main.js" defer></script>
   </body>
 </html>
