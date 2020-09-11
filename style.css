@@ -1,3 +1,16 @@
 *{
-box-sizing : border-box;
+    box-sizing: border-box;
+}
+.menu-is-closed{
+    display: none;
+}
+.menu-is-open{
+    display:block;
+}
+nav{
+    display: block;
+}
+#pokelist li {
+    background-color: grey;
+    list-style-type: none;
 }
